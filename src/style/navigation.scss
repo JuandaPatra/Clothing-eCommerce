@@ -1,0 +1,24 @@
+.navibar{
+    .loginButton{
+        display: none;
+        border-radius: 50px;
+        background-color: slateblue;
+    }
+    .loginButton:hover{
+        background-color: rgb(146, 130, 245);
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .navibar{
+
+        .login{
+            display: none;
+        }
+        .loginButton{
+            display: inline;
+        }
+    }
+
+
+}

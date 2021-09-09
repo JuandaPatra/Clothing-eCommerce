@@ -1,0 +1,171 @@
+.home{
+    // background-color: aquamarine;
+
+    h1{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: medium;
+    }
+
+    h1:hover{
+        color: wheat;
+        cursor: pointer;
+    }
+
+    .top{
+        margin-left: 20%;
+    }
+
+    .headline{
+        width: 80%;
+        height: 65vh;
+    }
+
+    .up-body-product{
+        margin-top: 5vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .up-body-product>div{
+        flex: 1;
+        height: 30vh;
+    }
+
+    .shirt-prod{
+        margin-top: 1%;
+        margin-left: 10%;
+        height: 50vh;
+        width: 80vw;
+    }
+
+
+    .hat-prod{
+        margin-top: 2%;
+        margin-left: 10%;
+        height: 50vh;
+        width: 80vw;
+    }
+
+    .jacket{
+        margin-top: 2%;
+        margin-left: 10%;
+
+        .jacket-prod{
+            height: 50vh;
+            width: 80vw;
+        }
+    }
+
+    .product-andalan{
+        margin-top: 15%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .home{
+
+       .up-shirt{
+        margin-top: 1%;
+        margin-left: 0%;
+        width: 80vw;
+
+        .shirt-prod{
+            margin-left: 2%;
+            height: 60vh;
+        }
+       }
+
+       .up-hat{
+        margin-top: 1%;
+        margin-left: 10%;
+        width: 80vw;
+
+        .hat-prod{
+            margin-left: 10%;
+            height: 60vh;
+        }
+       }
+
+       .jacket{
+        margin-top: 2%;
+        margin-left: 2%;
+
+        .jacket-prod{
+            height: 60vh;
+        }
+       }
+
+
+
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .home{
+
+        .top{
+            margin-left: 30%;
+        }
+
+        .headline{
+            width: 40vw;
+            height: 70vh;
+        }
+
+        .up-body-product{
+            margin-top: 5vh;
+            display: flex;
+            flex-direction: row;
+        }
+    
+
+        .up-shirt{
+         margin-top: 2%;
+         margin-left: 0%;
+         width: 50vw;
+         h1{
+            display: none;
+        }
+ 
+         .shirt-prod{
+             margin-left: 2%;
+             height: 75vh;
+             width: 40vw;
+         }
+        }
+ 
+        .up-hat{
+         margin-top: 1%;
+         margin-left: 0%;
+         width: 50vw;
+
+         h1{
+            display: none;
+        }
+ 
+         .hat-prod{
+             margin-top: 40%;
+             margin-left: 2%;
+             height: 75vh;
+             width: 40vw;
+         }
+        }
+ 
+        .jacket{
+         margin-top: 50%;
+         margin-left: 30%;
+
+         h1{
+             display: none;
+         }
+ 
+         .jacket-prod{
+            width: 40vw;
+            height: 70vh;
+         }
+        }
+ 
+ 
+ 
+     }
+}

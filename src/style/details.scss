@@ -1,0 +1,156 @@
+.detail{
+    // background-color: yellowgreen;
+    margin-top: 20vh;
+    height: 1000px;
+    
+
+    .newItem{
+        
+        h1, h3{
+            text-align: center;
+        }
+
+        .latest-items{
+            margin-top: 5vh;
+            margin-left: 15%;
+        }
+     .new{
+         width: 18rem;
+         margin-left: 4vw;
+
+         .size{
+             display: none;
+             flex-direction: row;
+         }
+
+         .addtoCart{
+             display: none;
+         }
+
+        }   
+
+        // .new:hover{
+        //     background-color: violet;
+        //     cursor: pointer;
+        //     display: block;
+        // }
+
+        .new:hover  .size{
+            display: flex;
+            cursor: pointer;
+        }
+        .new:hover  .addtoCart{
+            display: flex;
+            cursor: pointer;
+        }
+
+        .itemitem{
+            // background-color: salmon;
+            width: 70vw;
+            margin-left: 15%;
+
+            .itemProd{
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: wrap;
+
+                .item{
+                    width: 20rem;
+                    height: 100;
+                    margin-top: 30px;
+
+                    .gambaritem{
+                        height: 60%;
+                    }
+
+                    .sizeitem{
+                        display: none;
+                    }
+                    
+                }
+                .item:hover .sizeitem{
+                    cursor: pointer;
+                    display: inline;
+                }
+
+
+            }
+        }
+
+        
+    }
+
+}
+
+@media only screen and (min-width: 768px) {
+    .detail{
+        // background-color: violet;
+
+        
+
+        .newItem{
+            h1, h3{
+                text-align: center;
+            }
+            .latest-items{
+                margin-top: 5vh;
+                margin-left: 25%;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .detail{
+        // background-color: violet;
+
+        
+
+        .newItem{
+            h1, h3{
+                text-align: center;
+            }
+            .latest-items{
+                margin-top: 5vh;
+                margin-left: 35%;
+            }
+            
+
+            .itemitem{
+                // background-color: salmon;
+                width: 70vw;
+                margin-left: 15%;
+
+                .itemProd{
+                    display: flex;
+                    justify-content: space-between;
+                    flex-wrap: wrap;
+
+                    .item{
+                        width: 20rem;
+                        height: 100;
+                        margin-top: 30px;
+
+                        .gambaritem{
+                            height: 60%;
+                        }
+
+                        .sizeitem{
+                            display: none;
+                        }
+                        
+                    }
+                    .item:hover .sizeitem{
+                        cursor: pointer;
+                        display: inline;
+                    }
+
+
+                }
+            }
+        }
+
+    }
+
+
+}
