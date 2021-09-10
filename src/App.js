@@ -8,6 +8,7 @@ import Footer from "./component/footer"
 //import Pages
 import Home from "./pages/home"
 import Detail from "./pages/details"
+import RegisterPage from "./pages/register"
 
 
 class App extends React.Component{
@@ -15,7 +16,8 @@ class App extends React.Component{
     return(
       <div>
         <NavigationBar/>
-        <Home/>
+        {/* <Home/> */}
+        <RegisterPage/>
         {/* <Detail/> */}
         <Footer/>
       </div>

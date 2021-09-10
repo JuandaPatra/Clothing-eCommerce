@@ -1,0 +1,71 @@
+.register{
+    height: 60vh;
+    margin-top: 20vh;
+
+    label{
+        color: white;
+    }
+
+    .registerBox{
+        border: 1px solid transparent;
+        width: 70vw;
+        margin-left: 13vw;
+        background-color: slateblue;
+        height: 60vh;
+        border-radius: 30px;
+    }
+
+    h1{
+        text-align: center;
+        color: white;
+    }
+
+    button{
+        margin-top: 20px;
+        margin-left: 27%;
+    }
+
+    .boxForm{
+        width: 50vw;
+        margin: auto;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+   .register{
+
+    
+    button{
+        margin-top: 20px;
+        margin-left: 40%;
+    }
+       .registerBox{
+           height: 38vh;
+           width: 60vw;
+           margin-left: 20vw;
+       }
+   }
+}
+
+@media only screen and (min-width: 992px) {
+    .register{
+
+    
+        button{
+            margin-top: 20px;
+            margin-left: 40%;
+        }
+           .registerBox{
+               height: 60vh;
+               width: 35vw;
+               margin-left: 32vw;
+           }
+
+           .boxForm{
+               width: 30vw;
+           }
+       }
+
+
+
+}
