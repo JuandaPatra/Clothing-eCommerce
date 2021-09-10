@@ -1,5 +1,11 @@
 import React from "react"
+
+//import Component
 import NavigationBar from "./component/navigationBar"
+import Footer from "./component/footer"
+
+
+//import Pages
 import Home from "./pages/home"
 import Detail from "./pages/details"
 
@@ -9,8 +15,9 @@ class App extends React.Component{
     return(
       <div>
         <NavigationBar/>
-        {/* <Home/> */}
-        <Detail/>
+        <Home/>
+        {/* <Detail/> */}
+        <Footer/>
       </div>
     )
   }

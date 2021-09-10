@@ -1,5 +1,5 @@
 import React from "react";
-import { NavDropdown, Navbar, Container, Nav, Button, Modal, FormControl } from "react-bootstrap";
+import { NavDropdown, Navbar, Container, Nav, Button, Modal, FormControl, Badge } from "react-bootstrap";
 import logo from "../asset/Polos.png"
 import "../style/navigation.scss"
 
@@ -9,6 +9,14 @@ class NavigationBar extends React.Component {
         this.state={
             login : false
         }
+    }
+
+    onLogin=()=>{
+      let data ={
+        email : this.refs.email.value,
+        password : this.refs.password.value
+      }
+      console.log(data)
     }
   render() {
     return (
@@ -21,7 +29,7 @@ class NavigationBar extends React.Component {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="me-auto">
-                <Nav.Link href="#home">Cart</Nav.Link>
+                <Nav.Link href="#home"><i className="fas fa-shopping-cart"></i> <Badge bg="danger">9</Badge></Nav.Link>
                 <Nav.Link href="#home" className="login">Login</Nav.Link>
                 <NavDropdown title="Category" id="basic-nav-dropdown">
                   <NavDropdown.Item href="#action/3.1">Shirt</NavDropdown.Item>
@@ -40,7 +48,7 @@ class NavigationBar extends React.Component {
           <Modal.Title>Login</Modal.Title>
         </Modal.Header>
         <Modal.Body>
-            <label>Email :</label>
+            <label>Email </label>
             <FormControl
       placeholder="email"
       ref="email"
@@ -48,10 +56,10 @@ class NavigationBar extends React.Component {
       aria-describedby="basic-addon1"
     />
 
-<label>Password :</label>
+<label>Password </label>
             <FormControl
       placeholder="password"
-      ref="email"
+      ref="password"
       aria-label="Username"
       aria-describedby="basic-addon1"
     />
@@ -61,7 +69,7 @@ class NavigationBar extends React.Component {
 
         </Modal.Body>
         <Modal.Footer>
-          <Button variant="primary" onClick={()=>this.setState({login:false})}>
+          <Button variant="primary" onClick={this.onLogin}>
             Save Changes
           </Button>
         </Modal.Footer>

@@ -15,11 +15,6 @@ class Detail extends React.Component {
         }
     }
 
-    dataItem =()=>{
-        this.state.item.map((item, index)=>{
-            return <p>{item.price}</p>
-        })
-    }
   render() {
       console.log(this.state.item)
     return (

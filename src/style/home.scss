@@ -1,5 +1,43 @@
 .home{
     // background-color: aquamarine;
+    margin-bottom: 10vh;
+
+    .cardOpen{
+        color: white;
+        width: 80vw;
+        height: 50vh;
+        margin-top: 30vh;
+        border: none;
+        
+
+        .cardOpenProp{
+            background-color: slateblue;
+            width: 80%;
+            height: 10%;
+            margin-left: -5%;
+            
+        }
+        .cover{
+            background-color: rgba(255,255,255,0.5);
+            margin-left: -7%;
+            width: 90%;
+            height: 174%;
+            margin-top: -11%;
+            display: none;
+            position: relative;
+        }
+
+    }
+    .cardOpen:hover{
+        cursor: pointer;
+    }
+
+    .cardOpen:hover .cover{
+        display: block;
+    }
+    
+    
+    
 
     h1{
         font-family: Arial, Helvetica, sans-serif;
@@ -21,7 +59,7 @@
     }
 
     .up-body-product{
-        margin-top: 5vh;
+        margin-top: 10vh;
         display: flex;
         flex-direction: column;
     }
@@ -64,6 +102,40 @@
 @media only screen and (min-width: 768px) {
     .home{
 
+        .cardOpen{
+            color: white;
+            width: 50vw;
+            height: 50vh;
+            margin-top: 30vh;
+            border: none;
+            
+    
+            .cardOpenProp{
+                background-color: slateblue;
+                width: 80%;
+                height: 4%;
+                margin-left: -2%;
+                
+            }
+            .cover{
+                background-color: rgba(255,255,255,0.5);
+                margin-left: 2%;
+                width: 1%;
+                height: 187%;
+                margin-top: -11%;
+                display: none;
+                position: relative;
+            }
+    
+        }
+        .cardOpen:hover{
+            cursor: pointer;
+        }
+    
+        .cardOpen:hover .cover{
+            display: block;
+        }
+
        .up-shirt{
         margin-top: 1%;
         margin-left: 0%;
@@ -102,6 +174,41 @@
 
 @media only screen and (min-width: 992px) {
     .home{
+
+        .cardOpen{
+            background-color: royalblue;
+            color: white;
+            width: 50vw;
+            height: 50vh;
+            margin-top: 30vh;
+            border: none;
+            
+    
+            .cardOpenProp{
+                background-color: slateblue;
+                width: 80%;
+                height: 10%;
+                margin-left: -2.5%;
+                
+            }
+            .cover{
+                background-color: rgba(255,255,255,0.5);
+                margin-left: -3%;
+                width: 90%;
+                height: 187%;
+                margin-top: -11%;
+                display: none;
+                position: relative;
+            }
+    
+        }
+        .cardOpen:hover{
+            cursor: pointer;
+        }
+    
+        .cardOpen:hover .cover{
+            display: block;
+        }
 
         .top{
             margin-left: 30%;

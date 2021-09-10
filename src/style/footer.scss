@@ -1,0 +1,53 @@
+.footer{
+    height: 30vh;
+
+    // .footerMobile{
+    //     display: none;
+    // }
+
+    .footerWeb{
+        display: none;
+    }
+
+    .section-footer{
+        margin-left: 15px;
+        display: flex;
+        width: 90vw;
+    }
+
+    .section-footer>div{
+        margin-left: 10%;
+    }
+
+}
+
+@media only screen and (min-width: 768px) {
+    .footer{
+        height: 10vh;
+
+        .footerMobile{
+        display: none;
+    }
+
+        .footerWeb{
+            display: inline;
+        }
+
+    }
+    
+}
+
+@media only screen and (min-width: 992px) {
+    .footer{
+
+        .footerMobile{
+        display: none;
+    }
+
+        .footerWeb{
+            display: inline;
+        }
+
+    }
+
+}
