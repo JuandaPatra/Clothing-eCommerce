@@ -1,6 +1,7 @@
 import React from "react";
 import { Image, Card, Button } from "react-bootstrap";
 import "../style/details.scss";
+import Footer from "../component/footer";
 
 class Detail extends React.Component {
     constructor(props){
@@ -64,6 +65,7 @@ class Detail extends React.Component {
               </div>
         </div>
         </div>
+        <Footer/>
       </div>
     );
   }

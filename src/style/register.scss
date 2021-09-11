@@ -1,6 +1,7 @@
 .register{
     height: 60vh;
     margin-top: 20vh;
+    margin-bottom: 10vh;
 
     label{
         color: white;
@@ -40,7 +41,7 @@
         margin-left: 40%;
     }
        .registerBox{
-           height: 38vh;
+           height: 60vh;
            width: 60vw;
            margin-left: 20vw;
        }
@@ -49,10 +50,12 @@
 
 @media only screen and (min-width: 992px) {
     .register{
+        margin-top: 20vh;
+        margin-bottom: 12vh;
 
     
         button{
-            margin-top: 20px;
+            margin-top: 15px;
             margin-left: 40%;
         }
            .registerBox{
