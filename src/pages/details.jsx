@@ -25,7 +25,7 @@ class Detail extends React.Component {
           <h3>How soon is now? It's pretty soon. It's like now.They're Here</h3>
           <div className="latest-items">
           <Card border="light" className="new" >
-            <Card.Img variant="top" src="https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=666&q=80" />
+            <Card.Img variant="top" src="https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=666&q=80" className="gambar" />
             <Card.Body>
               <Card.Title>White sweatshirt</Card.Title>
               <Card.Text>Rp.{(150000).toLocaleString()}</Card.Text>
