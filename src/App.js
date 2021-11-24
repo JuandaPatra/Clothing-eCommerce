@@ -16,9 +16,9 @@ class App extends React.Component{
     return(
       <div>
         <NavigationBar/>
-        {/* <Home/> */}
+        <Home/>
         {/* <RegisterPage/> */}
-        <Detail/>
+        {/* <Detail/> */}
         {/* <Footer/> */}
       </div>
     )

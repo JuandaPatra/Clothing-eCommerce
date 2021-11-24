@@ -1,5 +1,12 @@
 .footer{
+    // background-color: navy;
     height: 30vh;
+    position: relative;
+    z-index: 999;
+    a{
+        text-decoration: none;
+        color: navy;
+    }
 
     // .footerMobile{
     //     display: none;

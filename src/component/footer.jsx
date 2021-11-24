@@ -11,10 +11,10 @@ const Footer = () => {
             <Accordion.Header>Need Help?</Accordion.Header>
             <Accordion.Body>
               <div style={{ display: "flex", flexDirection: "column" }}>
-                <a>How to Order</a>
-                <a>Order status</a>
-                <a>Track your shipment</a>
-                <a>Return&exchange</a>
+                <a href="/">How to Order</a>
+                <a href="/">Order status</a>
+                <a href="/">Track your shipment</a>
+                <a href="/">Return&exchange</a>
               </div>
             </Accordion.Body>
           </Accordion.Item>
@@ -22,9 +22,9 @@ const Footer = () => {
             <Accordion.Header>About Us</Accordion.Header>
             <Accordion.Body>
               <div style={{ display: "flex", flexDirection: "column" }}>
-                <a>Careers <Badge bg="primary">apply now</Badge></a>
-                <a>Media</a>
-                <a>Request new Product</a>
+                <a href="/">Careers <Badge bg="primary">apply now</Badge></a>
+                <a href="/">Media</a>
+                <a href="/">Request new Product</a>
               </div>
             </Accordion.Body>
           </Accordion.Item>
@@ -32,8 +32,8 @@ const Footer = () => {
             <Accordion.Header>Contact Us</Accordion.Header>
             <Accordion.Body>
             <div style={{ display: "flex", flexDirection: "column" }}>
-                <a>Phone Number : +628 77220000000</a>
-                <a>Email Address : info@polos.id</a>
+                <a href="/">Phone Number : +628 77220000000</a>
+                <a href="/">Email Address : info@polos.id</a>
               </div>
             </Accordion.Body>
           </Accordion.Item>
@@ -41,40 +41,40 @@ const Footer = () => {
             <Accordion.Header>Partner With Us</Accordion.Header>
             <Accordion.Body>
             <div style={{ display: "flex", flexDirection: "column" }}>
-                <a>Collaboration</a>
-                <a>Partnership</a>
+                <a href="/">Collaboration</a>
+                <a href="/">Partnership</a>
               </div>
             </Accordion.Body>
           </Accordion.Item>
         </Accordion>
-        <p style={{textAlign:"center"}}>Copyright PT.POLOS SEPERTI BARU</p>
+        <p style={{textAlign:"center"}}>Copyright &copy; PT.POLOS SEPERTI BARU</p>
       </div>
-      <div className="footerWeb">
+      <div className="footerWeb" style={{backgroundColor:"tomato"}}>
           <h1 style={{textAlign:"center"}}>Polos.id</h1>
           <div className="section-footer">
           <div style={{ display: "flex", flexDirection: "column" }}>
-                <a>How to Order</a>
-                <a>Order status</a>
-                <a>Track your shipment</a>
-                <a>Return&exchange</a>
+                <a href="/">How to Order</a>
+                <a href="/">Order status</a>
+                <a href="/">Track your shipment</a>
+                <a href="/">Return&exchange</a>
               </div>
               <div style={{ display: "flex", flexDirection: "column" }}>
-                <a>Careers <Badge bg="primary">apply now</Badge></a>
-                <a>Media</a>
-                <a>Request new Product</a>
+                <a href="/">Careers <Badge bg="primary">apply now</Badge></a>
+                <a href="/">Media</a>
+                <a href="/">Request new Product</a>
               </div>
               <div style={{ display: "flex", flexDirection: "column" }}>
-                <a>Phone Number : +628 77220000000</a>
-                <a>Email Address : info@polos.id</a>
+                <a href="/">Phone Number : +628 77220000000</a>
+                <a href="/">Email Address : info@polos.id</a>
               </div>
               <div style={{ display: "flex", flexDirection: "column" }}>
-                <a>Collaboration</a>
-                <a>Partnership</a>
+                <a href="/">Collaboration</a>
+                <a href="/">Partnership</a>
               </div>
 
 
           </div>
-          <p style={{textAlign:"center"}}>Copyright PT. POLOS SEPERTI BARU</p>
+          <p style={{textAlign:"center"}}>Copyright &copy; PT. POLOS SEPERTI BARU</p>
 
       </div>
     </footer>
